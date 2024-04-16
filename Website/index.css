@@ -1,0 +1,659 @@
+/* Creating counter. 
+#countlabel
+{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Helvetica;
+}
+
+#btn_container
+{
+    text-align: center;
+}
+
+.btn
+{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: black;
+    background-color: bisque;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.btn:hover
+{
+    background-color: rgb(226, 172, 89);
+} */
+
+/* Creating  Random Number Generator.
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#mybtn
+{
+    font-size: 3em;
+    padding: 5px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#mybtn:hover
+{
+    background-color: rgb(238, 200, 153);
+}
+
+#mylabel
+{
+    font-size: 3em;
+}
+
+.mylabels
+{
+    font-size: 3em;
+} */
+
+/* Creating Checked Box System.
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+#mysubmit
+{
+    font-size: 1em;
+} */
+
+/* Temperature conversion. 
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(219, 214, 207);
+    
+}
+
+h1
+{
+    color: rgb(44, 44, 143);
+}
+
+form
+{
+    background-color: white;
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.238);
+}
+
+#textBox
+{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid rgba(0, 0, 0, 0.611);
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+label
+{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button
+{
+    margin-top: 15px;
+    background-color: aqua;
+    font-size: 1.5em;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: black;
+}
+
+button:hover
+{
+    background-color: rgb(2, 197, 197);
+}
+
+#result
+{
+    font-size: 1.75em;
+    font-weight: bold;
+} */
+
+/* Dice Roller
+
+#container
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+button
+{
+    font-size: 1.5 rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(27, 27, 153, 0.958);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover
+{
+    background-color: rgb(11, 99, 150);
+}
+
+input
+{
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#diceResult
+{
+    margin: 25px;
+}
+
+#DiceImg img
+{
+    width: 150px;
+    margin: 5px;
+} */
+
+/* Digital Clock
+body
+{
+    background-image: url(dhaka.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+#clock-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock
+{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(1px);
+    width: 100%;
+} */
+
+/* Stopwatch
+
+body 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gainsboro;
+}
+
+#myH1
+{
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.766);
+}
+
+#container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 50px;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+#display
+{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: cadetblue;
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+    margin-bottom: 25px;
+}
+
+#controls
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+#start
+{
+    background-color: chartreuse;
+}
+#start:hover
+{
+    background-color: rgb(119, 230, 8);
+}
+
+#stop
+{
+    background-color: rgb(255, 0, 0);
+}
+#stop:hover
+{
+    background-color: rgb(177, 6, 6);
+}
+
+#reset
+{
+    background-color: rgba(121, 125, 246, 0.881);
+}
+#reset:hover
+{
+    background-color: rgb(16, 128, 185);
+} */
+
+/* Calculator.
+body
+{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(227, 230, 232);
+}
+
+#calculator
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(17, 17, 17);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#display
+{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: rgb(55, 55, 54);
+    color: white;
+}
+
+#keys
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+button
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(67, 66, 66);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover
+{
+    background-color: rgb(94, 92, 90);
+}
+
+button:active
+{
+    background-color: rgb(123, 119, 118);
+}
+
+.operator
+{
+    background-color: rgb(255, 145, 0);
+}
+
+.operator:hover
+{
+    background-color: rgb(197, 105, 25);
+}
+
+.operator:active
+{
+    background-color: rgb(209, 138, 76);
+} */
+
+/*Add and Change HTML
+.box
+{
+    border: 3px solid;
+    width: 100%;
+    height: 125px;
+} */
+
+/* #myBox
+{
+    background-color: chartreuse;
+    width: 300px;
+    height: 300px;
+    font-size: 4.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#mybtn
+{
+    font-size: 3rem;
+} */
+
+/* #myBox
+{
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    font-size: 7.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+} */
+
+/* #myBtn
+{
+    font-size: 2rem;
+} */
+
+/* .myButton
+{
+    font-size: 4rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: aqua;
+    color: rgb(46, 44, 44);
+} */
+
+/* .myButton
+{
+    font-size: 4rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.enabled
+{
+    background-color: brown;
+    color: white;
+}
+
+.hover
+{
+    box-shadow:  0 0 10px grey;
+    font-weight: bold;
+}
+
+.disabled
+{
+    background-color: beige;
+    color: brown;
+} */
+
+/* ROCK PAPER SCISSOR
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1
+{
+    font-size: 3.5rem;
+    color: rgb(20, 20, 20);
+}
+
+.choices
+{
+    margin-bottom: 30px;
+}
+
+.choices button
+{
+    font-size: 7.5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    border-radius: 250px;
+    background-color: rgb(0, 194, 194);
+    cursor: pointer;
+}
+
+.choices button:hover
+{
+    background-color: aqua;
+}
+
+#playerDisplay, #computerDisplay
+{
+    font-size: 2.5rem;
+}
+
+#resultDisplay
+{
+    font-size: 5rem;
+    margin: 3px 0;
+}
+
+.scoreDisplay
+{
+    font-size: 2rem;
+
+}
+
+.greenText, #playerScoreDisplay
+{
+    color: rgb(107, 166, 18);
+}
+
+.redText, #computerScoreDisplay
+{
+    color: red;
+} */
+
+/* Image Slider
+.slider
+{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider img
+{
+    width: 100%;
+    display: none;
+}
+
+img.displaySlide
+{
+    display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.slider button
+{
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    padding: 10px 15px;
+    background-color: rgb(27, 26, 26);
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.prev
+{
+    left: 0;
+}
+
+.next
+{
+    right: 0;
+}
+
+@keyframes fade
+{
+    form{opacity: 0.5;}
+    to{opacity: 1;}
+} */
+
+/* Weather Updates
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weatherForm
+{
+    margin: 20px;
+}
+
+.cityInput
+{
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid rgb(30, 30, 30);
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+button[type="submit"]
+{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: rgb(0, 117, 78);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover
+{
+    background-color: rgb(12, 152, 105);
+}
+
+.card
+{
+    background: linear-gradient(180deg, rgb(103, 194, 233), rgb(182, 168, 95));
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 2px 2px 5px rgb(45, 45, 45);
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1
+{
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+p
+{
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+.cityDisplay, .tempDisplay
+{
+    font-size: bold;
+    margin-bottom: 25px;
+}
+
+.humidityDisplay
+{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.descDisplay
+{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.weatherEmoji
+{
+    margin: 0;
+    font-size: 7.5rem;
+}
+
+.errorDisplay
+{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.57);
+} */
